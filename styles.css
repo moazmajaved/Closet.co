@@ -269,6 +269,65 @@ h2 {
     background-position: 200% 0;
   }
 }
+@media (max-width: 768px) {
+  /* Phones and small tablets */
+
+  header nav a {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  .container {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .product-box {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  background-color: #ffc0cb;  /* Light pink */
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  padding: 8px 12px;
+  border-radius: 3px;
+  transition: background 0.3s;
+}
+
+nav a:hover {
+  background-color: #ff69b4;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  nav a {
+    display: block;
+    width: 100%;         /* Full-width links */
+    text-align: center;
+    font-size: 18px;
+    margin: 5px 0;
+  }
+}
 
 
 
